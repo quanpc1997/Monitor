@@ -14,7 +14,8 @@ IOWait rất quan trọng vì nó thường là một số liệu chính để b
 
 ### 3. RAM 
 **RAM free**(Ram trống) là lượng ram trống chưa được sử dụng. Có thể sử dụng chúng bất cứ lúc nào. 
-**RAM available**(Ram khả dụng) bao gồm cả lượng ram trống_(RAM free)_ và bộ nhớ đệm_(cache)_. 
+
+**RAM available**(Ram khả dụng) bao gồm cả lượng ram trống_(RAM free)_ + bộ nhớ đệm_(cache)_  + Buffer. 
 
 ### 4. Cache 
 **Cache** là bộ nhớ đệm thường được gắn trực tiếp lên CPU để lưu giữ lại data thường được sử dụng . Làm giảm việc truy cập đến storage có tốc độ chậm hơn. Tốc độ truy suất trên cache nhanh hơn RAM 
